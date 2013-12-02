@@ -1,9 +1,5 @@
 freegeek-build-utils (1.2.45) UNRELEASED; urgency=low
 
-  [ Ryan Niebur ]
-  * Add Daniel Lingle's dvd-wipe script, thanks! (Closes: #36059)
-
-  [  ]
   * Always output the URL for spec sheets when running printme
 
  -- Ryan Niebur <ryan@debian.org>  Sun, 23 Jun 2013 13:37:07 -0700
