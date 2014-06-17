@@ -1,0 +1,9 @@
+#!/bin/sh
+
+set -e
+
+if ! [ -d /Volumes ]; then
+  sudo apt-get install -y ruby pmount alsa-utils ruby-gettext
+fi
+
+RUBYLIB=`dirname $0`/freegeek-build-utils/lib:`dirname $0`/rubytui/lib `dirname $0`/freegeek-build-utils/basiccheck

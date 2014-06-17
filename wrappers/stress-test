@@ -1,0 +1,9 @@
+#!/bin/sh
+
+set -e
+
+if ! [ -d /Volumes ]; then
+  sudo apt-get install -y stress cpufrequtils
+fi
+
+`dirname $0`/freegeek-build-utils/scripts/stress-test
