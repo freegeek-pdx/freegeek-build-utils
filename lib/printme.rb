@@ -19,11 +19,25 @@ if File.exists?(conffile)
 end
 $server = yaml['server'] + ':' + yaml['port'].to_s
 
+class Hash
+  def method_missing(*pams)
+    n = pams.first.to_s
+    if pams.length == 1 && (ret = self[n])
+      return ret
+    elsif pams.length == 2 && n.match(/=$/)
+      self[n.sub(/=$/, "")] = pams[1]
+    else
+      super(*pams)
+    end
+  end
+end
+
 $PRINTME_VERSION=17
 
 require 'rubytui'
 require 'fileutils'
-require 'soap/rpc/driver'
+#require 'soap/rpc/driver'
+require 'fgjsonapi'
 include FileUtils
 include RubyTUI
 require 'tempfile'
