@@ -8,7 +8,7 @@ if [ -d /Volumes ]; then
         MNTDIR=/usr/local/bin
 else
         MNTDIR=/usr/local/games
-        sudo apt-get install -y nfs-common ruby-gettext
+        sudo apt-get install -y nfs-common
 fi
 
 NFSOPTS="-o resvport"
