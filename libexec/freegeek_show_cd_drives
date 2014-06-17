@@ -22,7 +22,7 @@ for i in $(
         fi
     done); do
     TEMPFILE=$TEMPDIR/$i
-    /usr/lib/freegeek_show_cd_drives.awk < $TEMPFILE
+    /usr/local/games/freegeek-build-utils/libexec/freegeek_show_cd_drives.awk < $TEMPFILE
     echo
 done
 rm -fr $TEMPDIR

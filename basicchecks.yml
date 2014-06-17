@@ -1,6 +1,6 @@
 tests: 
   - checkCdromDrive: 
-    command: /usr/lib/freegeek_show_cd_drives
+    command: /usr/local/games/freegeek-build-utils/libexec/freegeek_show_cd_drives
     title: "Checking status of CD ROM:"
     explanation: |-
       The output should contain reference to a CD ROM and possibly a
