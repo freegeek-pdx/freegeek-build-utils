@@ -1,0 +1,25 @@
+#!/bin/sh
+
+#        NFSOPTS="-o resvport"
+#        echo "Creating Folder for Build Files..."
+#        mkdir  $MNTDIR
+
+if [ -d /Volumes ]; then
+        MNTDIR=/usr/local/bin
+else
+        MNTDIR=/usr/local/games
+        sudo apt-get install -y nfs-common ruby-gettext
+fi
+
+NFSOPTS="-o resvport"
+
+# Mount the NFS share
+sudo mkdir -p $MNTDIR
+sudo mount $NFSOPTS build:/build $MNTDIR
+#sudo mount -o bind $MNTDIR /usr/local/bin/
+
+#echo
+#echo "Files Mounted"
+#echo "Printme and related Build scripts are in $MNTDIR"
+
+###echo "Printme and related Build scripts are in $MNTDIR"
