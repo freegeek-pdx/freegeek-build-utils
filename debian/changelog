@@ -1,7 +1,5 @@
 freegeek-build-utils (1.2.45) precise; urgency=low
 
-  [ Ryan Niebur ]
-  * Add Daniel Lingle's dvd-wipe script, thanks! (Closes: #36059)
   * Always output the URL for spec sheets when running printme
 
   [ Vagrant Cascadian ]
