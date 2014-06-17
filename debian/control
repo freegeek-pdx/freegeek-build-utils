@@ -1,8 +1,8 @@
 Source: freegeek-build-utils
-Section: public/utils
+Section: utils
 Priority: optional
 Maintainer: Freegeek Coders <coders@freegeek.org>
-Uploaders: Martin Chase <stillflame@freegeek.org>, Vagrant Cascadian <vagrant@freegeek.org>, Ryan Niebur <ryan@debian.org>, Vagrant Cascadian <vagrant@debian.org>
+Uploaders: Vagrant Cascadian <vagrant@freegeek.org>, Ryan Niebur <ryan@debian.org>
 Build-Depends: debhelper (>= 7), bash-completion, libgettext-ruby1.8, ruby
 Standards-Version: 3.9.1
 

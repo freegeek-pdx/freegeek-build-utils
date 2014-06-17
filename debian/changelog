@@ -1,8 +1,12 @@
-freegeek-build-utils (1.2.45) UNRELEASED; urgency=low
+freegeek-build-utils (1.2.45) precise; urgency=low
 
   * Always output the URL for spec sheets when running printme
 
- -- Ryan Niebur <ryan@debian.org>  Sun, 23 Jun 2013 13:37:07 -0700
+  [ Vagrant Cascadian ]
+  * Upload to launchpad ppa. 
+  * debian/control: Update Section and Uploaders. 
+
+ -- Vagrant Cascadian <vagrant@freegeek.org>  Tue, 17 Dec 2013 13:48:59 -0800
 
 freegeek-build-utils (1.2.44) freegeek-test; urgency=low
 
