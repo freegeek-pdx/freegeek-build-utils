@@ -14,7 +14,7 @@ Depends: ${misc:Depends},
  libtui-ruby1.8 (>= 1.15),
  lsb-release, dmidecode | sparc | powerpc,
 # basiccheck
- ruby, pmount, alsa-utils, libgettext-ruby1.8,
+ ruby, pmount, alsa-utils, libgettext-ruby1.8, x11-utils,
 # stress-test
  stress,
  cpufrequtils,
