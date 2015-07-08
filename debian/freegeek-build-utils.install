@@ -1,6 +1,5 @@
 basiccheck usr/bin/
 basicchecks.yml usr/share/freekbox/
-scripts/dvd-wipe usr/bin/dvd-wipe
 scripts/Dell-fix usr/sbin/
 scripts/batterytest usr/bin/
 scripts/printme usr/bin/
