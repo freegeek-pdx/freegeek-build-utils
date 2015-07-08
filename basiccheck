@@ -213,7 +213,7 @@ def finishup( failures = [] )
         end
     end
     header _("The basic check is finished.") + "\n\n"
-    goodbye = _("NOTE: Not all things that could go wrong have been checked.")
+    goodbye = _("NOTE: Not all things that could go wrong have been checked.") + "\n"
     message goodbye.gsub(/^\s+/, '')
 end
 
